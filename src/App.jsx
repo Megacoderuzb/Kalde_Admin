@@ -14,6 +14,11 @@ import CategoryDetailsList from "./Pages/CategoryDetails.jsx";
 import MoreInfo from "./Pages/ProductDetails.jsx";
 import EditCategories from "./Components/editCategories.jsx";
 import News from "./Pages/News.jsx";
+
+import Prays from "./Pages/Prays.jsx";
+import CreatePrays from "./Components/createPrays.jsx";
+import Praysdetails from "./Components/PraysDetails.jsx";
+import EditPrays from "./Components/EditPrays.jsx";
 // import createNews from "./Components/createNews.jsx";
 import CreateNews from "./Components/createNews.jsx";
 import Newsdetails from "./Components/NewsDetails.jsx";
@@ -45,6 +50,11 @@ function App() {
         <Route path="/createNews" element={<CreateNews />} />
         <Route path="/news/:id" element={<Newsdetails />} />
         <Route path="/editNews/:id" element={<EditNews />} />
+
+        <Route path="/prays" element={<Prays />} />
+        <Route path="/createPrays" element={<CreatePrays />} />
+        <Route path="/prays/:id" element={<Praysdetails />} />
+        <Route path="/editPrays/:id" element={<EditPrays />} />
 
         <Route path="/dealers" element={<Dealers />} />
         <Route path="/createDealers" element={<CreateDealers />} />

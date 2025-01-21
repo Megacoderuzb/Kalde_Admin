@@ -62,6 +62,11 @@ const Header = () => {
                   Дилеры
                 </Link>
               </li>
+              <li className="nav-item ">
+                <Link className="text-light nav-link fs-4" to="/prays">
+                  Прайс
+                </Link>
+              </li>
               <li className="nav-item">
                 <button
                   onClick={handleLogout}
